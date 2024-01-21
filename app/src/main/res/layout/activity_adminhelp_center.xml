@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- activity_admin_panel.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".AdminhelpCenter"
+    android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etNewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter new content" />
+
+        <Button
+            android:id="@+id/btnAddContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Content" />
+
+    </LinearLayout>

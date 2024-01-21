@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JKK"
+        tools:targetApi="31">
+        <activity
+            android:name=".popupAdminactivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminChangeSetting"
+            android:exported="false" />
+        <activity
+            android:name=".AdminhelpCenter"
+            android:exported="false" />
+        <activity
+            android:name=".alishba"
+            android:exported="false" />
+        <activity
+            android:name=".UserItem"
+            android:exported="false" />
+        <activity
+            android:name=".UserMenu"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSetting"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAllItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".spinner_item_layout"
+            android:exported="false" />
+        <activity
+            android:name=".AdminVoucherImages"
+            android:exported="false" />
+        <activity
+            android:name=".AdminVoucher"
+            android:exported="false" />
+        <activity
+            android:name=".AdminItemUploadDelete"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogout"
+            android:exported="false" />
+        <activity
+            android:name=".AdminImagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminUpload"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomepg"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.JKK.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

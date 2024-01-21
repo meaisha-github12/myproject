@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="full_name" type="id" />
+    <item name="password" type="id" />
+    <item name="email_address" type="id" />
+    <item name="btnregister" type="id" />
+    <item name="btnsign_in" type="id" />
+    <item name="password1" type="id" />
+    <item name="btnsign_in1" type="id"/>
+    <item name="passwordEditText" type="id"/>
+
+
+
+</resources>

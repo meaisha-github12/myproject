@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.jkk.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.jkk.ui.gallery.OrdersFragment"
+        android:label="@string/orders"
+        tools:layout="@layout/orders_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Favourite"
+        android:name="com.example.jkk.ui.slideshow.FavouriteFragment"
+        android:label="@string/Favourite"
+        tools:layout="@layout/favourite_fragment" />
+    <fragment
+        android:id="@+id/nav_History"
+        android:name="com.example.jkk.HistoryFragment"
+        android:label="@string/History"
+        tools:layout="@layout/history_fragment" />
+    <fragment
+        android:id="@+id/nav_HelpCenter"
+        android:name="com.example.jkk.HelpCenterFragment"
+        android:label="@string/HelpCenter"
+        tools:layout="@layout/helpcenter_fragment" />
+    <fragment
+        android:id="@+id/nav_Vouchers"
+        android:name="com.example.jkk.VouchersFragment"
+        android:label="@string/Vouchers"
+        tools:layout="@layout/vouchers_fragment" />
+    <fragment
+        android:id="@+id/nav_MyCart"
+        android:name="com.example.jkk.MyCartFragment"
+        android:label="@string/MyCart"
+        tools:layout="@layout/mycart_fragment" />
+    <fragment
+        android:id="@+id/nav_Popup"
+        android:name="com.example.jkk.PopupFragment"
+        android:label="@string/Popup"
+        tools:layout="@layout/popup_fragment" />
+    <fragment
+        android:id="@+id/nav_Setting"
+        android:name="com.example.jkk.SettingFragment"
+        android:label="@string/Setting"
+        tools:layout="@layout/setting_fragment" />
+
+    <fragment
+        android:id="@+id/nav_Logout"
+        android:name="com.example.jkk.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/logout_fragment" />
+</navigation>
